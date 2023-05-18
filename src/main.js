@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import dayjs from 'dayjs'
 import router from './router'
-import { Button, Tabbar, TabbarItem, Form, Field, Icon, NavBar, Cell, CellGroup, Popup, List, PullRefresh, DatePicker, NumberKeyboard, Dialog, Progress, Rate, Divider } from 'vant'
+import { Button, Tabbar, TabbarItem, Form, Field, Icon, NavBar, Cell, CellGroup, Popup, List, PullRefresh, DatePicker, NumberKeyboard, Dialog, Progress, Rate, Divider, Row, Col } from 'vant'
 import 'vant/lib/index.css' // 全局引入样式
 import './index.css'
 
@@ -40,5 +40,7 @@ app.use(Dialog)
 app.use(Progress)
 app.use(Rate)
 app.use(Divider)
+app.use(Row)
+app.use(Col)
 
 app.mount('#app')

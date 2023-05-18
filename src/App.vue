@@ -15,7 +15,7 @@ export default {
   },
   setup() {
     const state = reactive({
-      menu: ['/data', '/count', '/add'],
+      menu: ['/data', '/count'],
       show: false
     })
     const router = useRouter()
